@@ -7,7 +7,10 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
    generator: 'Next.js',
    metadataBase: new URL('https://mbconcept.art'),
-   applicationName: 'Megabyte Concept Art Prints',
+   alternates: {
+      canonical: "/",
+   },
+   applicationName: 'Megabyte Concept Art Prints Shop',
    referrer: 'origin-when-cross-origin',
    keywords: [
       'Megabyte Concept',
@@ -29,7 +32,7 @@ export const metadata: Metadata = {
    creator: 'John Fanidis',
    publisher: 'John Fanidis',
    openGraph: {
-      title: 'Megabyte Concept Art Prints',
+      title: 'Megabyte Concept Art Prints Prints',
       description: 'The largest collection of beautiful art prints tailored to your house',
       url: 'https://mbconcept.art',
       siteName: 'Megabyte Concept Art Prints',
@@ -44,7 +47,7 @@ export const metadata: Metadata = {
       type: 'website',
    },
 
-   title: 'Megabyte Concept Art Prints',
+   title: 'Megabyte Concept Art Prints Prints Shop',
    description: 'Megabyte Concept Arts Prints brings the largest collection of beautiful art prints tailored to your house.',
 }
 
