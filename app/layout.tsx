@@ -6,7 +6,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
    generator: 'Next.js',
-   metadataBase: new URL('https://mbconcept.art'),
+   metadataBase: new URL('https://megabyte-concept-art-prints.vercel.app/'),
    alternates: {
       canonical: "/",
    },
