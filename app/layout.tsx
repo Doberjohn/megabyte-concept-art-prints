@@ -11,7 +11,7 @@ export const metadata: Metadata = {
       canonical: "/",
    },
    applicationName: 'Megabyte Concept Art Prints Shop',
-   referrer: 'origin-when-cross-origin',
+   referrer: 'strict-origin-when-cross-origin',
    keywords: [
       'Megabyte Concept',
       'Wall Art',

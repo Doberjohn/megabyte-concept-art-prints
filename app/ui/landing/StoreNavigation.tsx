@@ -189,7 +189,7 @@ const MobileMenu = ({open, setOpen}: {open: boolean, setOpen: (v: boolean) => vo
                                     key={category.name}
                                     className={({selected}) =>
                                        classNames(
-                                          selected ? 'border-indigo-600 text-indigo-600' : 'border-transparent text-gray-900',
+                                          selected ? 'border-red-400 text-red-400' : 'border-transparent text-gray-900',
                                           'flex-1 whitespace-nowrap border-b-2 px-1 py-4 text-base font-medium'
                                        )
                                     }
@@ -290,9 +290,9 @@ const DesktopMenu = ({setOpen}: {setOpen: (v: boolean) => void}) => {
                                           <Popover.Button
                                              className={classNames(
                                                 open
-                                                   ? 'border-indigo-600 text-indigo-600'
+                                                   ? 'border-red-400 text-red-400'
                                                    : 'border-transparent text-gray-700 hover:text-gray-800',
-                                                'relative z-10 -mb-px flex items-center border-b-2 pt-px text-sm font-medium transition-colors duration-200 ease-out'
+                                                'relative z-10 -mb-px flex items-center border-b-2 pt-px text-sm font-medium outline-none transition-colors duration-200 ease-out'
                                              )}
                                           >
                                              {category.name}
