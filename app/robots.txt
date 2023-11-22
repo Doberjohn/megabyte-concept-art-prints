@@ -1,4 +1,4 @@
 User-Agent: *
 Allow: /
 Disallow: /private/
-Sitemap: https://nextjs-dashboard-vert-psi.vercel.app/sitemap.xml
+Sitemap: https://mbconcept.art/sitemap.xml
