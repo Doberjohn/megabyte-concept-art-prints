@@ -32,7 +32,7 @@ export const metadata: Metadata = {
    creator: 'John Fanidis',
    publisher: 'John Fanidis',
    openGraph: {
-      title: 'Megabyte Concept Art Prints Prints',
+      title: 'Megabyte Concept Art Prints',
       description: 'The largest collection of beautiful art prints tailored to your house',
       url: 'https://mbconcept.art',
       siteName: 'Megabyte Concept Art Prints',
