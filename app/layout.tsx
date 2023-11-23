@@ -34,7 +34,7 @@ export const metadata: Metadata = {
    openGraph: {
       title: 'Megabyte Concept Art Prints',
       description: 'The largest collection of beautiful art prints tailored to your house',
-      url: 'https://mbconcept.art',
+      url: 'https://megabyte-concept-art-prints.vercel.app/',
       siteName: 'Megabyte Concept Art Prints',
       images: [
          {
