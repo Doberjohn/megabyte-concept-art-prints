@@ -56,9 +56,7 @@ export default function RootLayout({children}: {
    return (
       <html lang="en">
       <head>
-         <meta name="ahrefs-site-verification" content="b40e1e496d70d0a69334176e4f5dd63b621c6e908a2f503ae813209895e9d5fe">
-            <title> My title </title>
-         </meta>
+         <meta name="ahrefs-site-verification" content="b40e1e496d70d0a69334176e4f5dd63b621c6e908a2f503ae813209895e9d5fe"/>
       </head>
       <body className={`${inter.className} antialiased`}>
       {children}
