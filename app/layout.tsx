@@ -46,7 +46,6 @@ export const metadata: Metadata = {
       locale: 'en_US',
       type: 'website',
    },
-
    title: 'Megabyte Concept Art Prints Shop',
    description: 'Megabyte Concept Arts Prints brings the largest collection of beautiful art prints tailored to your house.',
 }
@@ -56,6 +55,11 @@ export default function RootLayout({children}: {
 }) {
    return (
       <html lang="en">
+      <head>
+         <meta name="ahrefs-site-verification" content="b40e1e496d70d0a69334176e4f5dd63b621c6e908a2f503ae813209895e9d5fe">
+            <title> My title </title>
+         </meta>
+      </head>
       <body className={`${inter.className} antialiased`}>
       {children}
       <Analytics/>
