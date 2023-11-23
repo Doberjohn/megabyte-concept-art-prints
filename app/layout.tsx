@@ -47,7 +47,7 @@ export const metadata: Metadata = {
       type: 'website',
    },
 
-   title: 'Megabyte Concept Art Prints Prints Shop',
+   title: 'Megabyte Concept Art Prints Shop',
    description: 'Megabyte Concept Arts Prints brings the largest collection of beautiful art prints tailored to your house.',
 }
 
